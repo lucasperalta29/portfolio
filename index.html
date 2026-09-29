@@ -155,7 +155,8 @@
   }
 
   /* ============ SECTIONS ============ */
-  .section{ padding:44px 0; border-bottom:1px solid var(--line); }
+  .section{ padding:44px 0; border-bottom:1px solid var(--line); scroll-margin-top:84px; }
+  .hero{ scroll-margin-top:0; }
   .section-head{ margin-bottom:26px; }
   .section-head h2{ font-size:clamp(1.3rem,2.2vw,1.7rem); }
 
@@ -338,7 +339,6 @@
   <div class="nav-inner">
     <a href="#home" class="nav-logo">Lucas Peralta</a>
     <ul class="nav-links">
-      <li><a href="#home" data-nav>Home</a></li>
       <li><a href="#about" data-nav>About</a></li>
       <li><a href="#academic" data-nav>Academic</a></li>
       <li><a href="#experience" data-nav>Experience</a></li>
@@ -348,7 +348,6 @@
     <button class="nav-toggle mono" id="navToggle" aria-label="Toggle menu" aria-expanded="false">≡</button>
   </div>
   <div class="nav-mobile" id="navMobile">
-    <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#academic">Academic</a>
     <a href="#experience">Experience</a>
